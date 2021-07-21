@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Title -->
+<title>Polygraph Benchmark</title>
+<!-- Styles -->
+<style type="text/css">
+body {margin:0;}
+div#header {
+    width: 100%;
+    background: #a3b594;
+    display: inline-block;
+    text-align: center;
+}
+</style>
+<!-- Libraries -->
+<!--<script type="module" src="libraries/polygraph/polygraphInit.js"></script>-->
+<script type="text/javascript" src="libraries/polygraph/polygraphAdvancedMath.js"></script>
+<script type="text/javascript" src="libraries/polygraph/polygraphAll.js"></script>
+<!-- Scripts -->
+<script type="application/javascript">
+<!--
+window.onload = ()=>{
+//import PolyGraph from './libraries/polygraph/polygraphInit.js';
+//console.log(PolyGraph);
+var rend = new PolyGraph.CanvasRenderer(850, 720, "test", "red");
+console.log(rend);
+
+rend.addLayer("first");
+rend.addObject("rect", {width:250, height:160, options:{style:{background:"pink",lineWidth:"5"}}});
+//setTimeout(()=>{ rend.destroy(); }, 1000);
+rend.render(document.body);
+}
+//-->
+</script>
+<!-- Parameters -->
+
+</head>
+<body>
+<div id="container">
+<header>
+<div id="header">
+<h1>Polygraph Benchmark</h1>
+</div>
+</header>
+</div>
+</body>
+</html>
